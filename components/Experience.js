@@ -207,15 +207,15 @@ const Experience = () => {
       type: "Full-Time"
     },
     {
-      role: "E-Learning & Storyline Developer",
+      role: "Jf Knowledge Centre",
       period: "Experienced",
       description: "Specialized in converting complex training documentation into engaging, interactive e-learning courses using Articulate 360, Rise 360, HeyGen, Synthesia and Canva.",
       type: "Specialization"
     },
     {
-      role: "Social Media digital marketing Intern",
-      company: "(ex-JSL Works)",
-      description: "Expert in end-to-end youtube video, video editing, social media management, and analytics tracking to optimize audience engagement and growth.",
+      role: "Social Media Digital Marketing Intern",
+      company: "(experienced at JSL Works)",
+      description: "Expert in end-to-end youtube video, video editing, social media management linkedin instagram and analytics tracking to optimize audience engagement and growth.",
       type: "Certification"
     }
   ];
