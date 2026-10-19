@@ -106,7 +106,6 @@
 // };
 
 // export default About;
-
 "use client";
 import React from 'react';
 import Image from 'next/image';
@@ -178,22 +177,22 @@ const About = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className='grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-3xl'
+            className='grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-3xl items-stretch'
           >
             {infoList.map(({ icon, title, description }, index) => (
               <motion.li 
                 whileHover={{ y: -6, scale: 1.02 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                className='group bg-white border border-gray-200/80 rounded-2xl p-6 cursor-pointer hover:bg-gradient-to-b hover:from-[#fcf4ff] hover:to-white hover:border-indigo-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between'
+                className='group bg-white border border-gray-200/80 rounded-2xl p-6 cursor-pointer hover:bg-gradient-to-b hover:from-[#fcf4ff] hover:to-white hover:border-indigo-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-start h-full'
                 key={index}
               >
-                <div>
-                  <div className='w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center mb-4 group-hover:bg-indigo-600 transition-colors duration-300'>
-                    <Image src={icon} alt={title} className='w-6 h-6 object-contain filter group-hover:brightness-0 group-hover:invert transition-all duration-300'/>
-                  </div>
-                  <h3 className='mb-2 font-bold text-gray-800 text-base group-hover:text-indigo-600 transition-colors'>{title}</h3>
+                <div className='w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center mb-4 group-hover:bg-indigo-600 transition-colors duration-300 shrink-0'>
+                  <Image src={icon} alt={title} className='w-6 h-6 object-contain filter group-hover:brightness-0 group-hover:invert transition-all duration-300'/>
                 </div>
-                <p className='text-gray-600 text-xs sm:text-sm leading-relaxed break-words'>{description}</p>
+                <h3 className='mb-2 font-bold text-gray-800 text-base group-hover:text-indigo-600 transition-colors'>{title}</h3>
+                <p className='text-gray-600 text-xs sm:text-sm leading-relaxed break-words mt-0'>
+                  {description}
+                </p>
               </motion.li>
             ))}
           </motion.ul>
