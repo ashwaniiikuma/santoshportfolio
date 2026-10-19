@@ -38,6 +38,9 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import portfolio_img from './portfolio-img.jpeg';
+import canva from './Canva.png';
+import synthesia from './synthesia.png';
+import heygen from './heygen.png';
 
 export const assets = {
     user_image,
@@ -50,6 +53,8 @@ export const assets = {
     vscode,
     nodejs,
     express,
+    canva,
+    synthesia,
     git,
     javascript,
     mongodb,
@@ -74,6 +79,7 @@ export const assets = {
     web_icon,
     react,
     mobile_icon,
+    heygen,
     ui_icon,
     graphics_icon,
     right_arrow,
@@ -137,24 +143,21 @@ export const serviceData = [
 export const infoList = [
     { 
         icon: assets.code_icon, 
-        iconDark: assets.code_icon_dark, 
         title: 'Skills & Tools', 
-        description: 'Articulate 360, Rise 360, HeyGen, Canva, Synthesia, YouTube Management, Scriptwriting & Video Editing' 
+        description: 'Articulate 360, Rise 360, HeyGen, Canva, Synthesia, YouTube Management, Scriptwriting & Video Editing.' 
     },
     { 
         icon: assets.edu_icon, 
-        iconDark: assets.edu_icon_dark, 
         title: 'Education', 
-        description: 'B.Tec Computer Science Engineering' 
+        description: 'B.Tec Information Technology.'
     },
     { 
         icon: assets.project_icon, 
-        iconDark: assets.project_icon_dark, 
         title: 'Projects & Campaigns', 
-        description: 'Managed multiple social media accounts, YouTube channels, and created 10+ interactive e-learning modules' 
+        description: 'Managed multiple social media accounts, YouTube channels, and created 100+ interactive e-learning modules.' 
     }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.javascript, assets.nodejs, assets.express, assets.react, assets.mongodb,  assets.git,  assets.postman, 
+    assets.vscode, assets.javascript,  assets.canva, assets.synthesia, assets.heygen,  assets.git, 
 ];

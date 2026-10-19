@@ -138,13 +138,7 @@ const Skills = () => {
               <p className='text-sm text-gray-600 leading-relaxed'>{description}</p>
             </div>
 
-            <a 
-              href={link || "#"} 
-              className='flex items-center gap-2 text-sm mt-6 text-indigo-600 font-medium hover:underline'
-            >
-              Explore 
-              <Image src={assets.right_arrow} alt='Arrow' className='w-4' />
-            </a>
+            
           </motion.div>
         ))}
       </motion.div>
