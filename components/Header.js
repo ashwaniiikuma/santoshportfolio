@@ -83,8 +83,8 @@ const Header = () => {
           </Link>
 
           <a
-            href="/resume-santosh.pdf"
-            download="resume-santosh.pdf"
+            href="/santosh-resume.pdf"
+            download="santosh-resume.pdf"
             className="w-full sm:w-auto px-7 py-3 rounded-full border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-sm transition-all duration-300 flex items-center justify-center gap-2 shadow-sm hover:-translate-y-0.5"
           >
             <span>My resume</span>
