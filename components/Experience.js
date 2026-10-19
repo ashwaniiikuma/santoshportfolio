@@ -203,21 +203,19 @@ const Experience = () => {
       role: "Social Media Executive & Content Developer",
       company: "Smith Origin ",
       period: "Present",
-      description: "Managing brand presence, designing creative social media campaigns, producing high-engagement YouTube & reel content, and developing interactive e-learning modules using Articulate Storyline and Rise 360.",
+      description: "Managing brand presence, designing creative social media campaigns, producing high-engagement short form and long form video managing facebook and instgram.",
       type: "Full-Time"
     },
     {
       role: "E-Learning & Storyline Developer",
-      company: "(ex-JSL Works)",
       period: "Experienced",
       description: "Specialized in converting complex training documentation into engaging, interactive e-learning courses using Articulate 360, Rise 360, HeyGen, Synthesia and Canva.",
       type: "Specialization"
     },
     {
-      role: "Content Strategy & Video Production",
-      company: "Digital Media Campaigns",
-      period: "Verified",
-      description: "Expert in end-to-end scriptwriting, video editing, social media management, and analytics tracking to optimize audience engagement and growth.",
+      role: "Social Media digital marketing Intern",
+      company: "(ex-JSL Works)",
+      description: "Expert in end-to-end youtube video, video editing, social media management, and analytics tracking to optimize audience engagement and growth.",
       type: "Certification"
     }
   ];
