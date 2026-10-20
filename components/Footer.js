@@ -98,7 +98,7 @@ const Footer = () => {
             href="https://mail.google.com/mail/?view=cm&fs=1&to=farswansantoshsingh71@gmail.com" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="font-medium hover:text-indigo-500 transition-colors"
+            className="font-medium hover:text-indigo-500 text-indigo-400 underline transition-colors"
           >
             farswansantoshsingh71@gmail.com
           </a>
