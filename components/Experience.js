@@ -208,7 +208,8 @@ const Experience = () => {
     },
     {
       role: "E-Learning & Storyline Developer",
-      company: "Jf Knowledge Centre ",
+      period:"Experienced",
+      company: "(Jf Knowledge Centre)",
       description: "Specialized in converting complex training documentation into engaging, interactive e-learning courses using Articulate 360, Rise 360, HeyGen, Synthesia and Canva.",
       type: "Specialization"
     },
