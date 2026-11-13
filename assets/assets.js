@@ -12,6 +12,7 @@ import javascript from './JavaScript.png';
 import postman from './Postman (1).png';
 import react from './React.png'
 import git from './git.png';
+import shopify from'./shopify.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
@@ -51,6 +52,7 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
+    shopify,
     nodejs,
     express,
     canva,
@@ -144,7 +146,7 @@ export const infoList = [
     { 
         icon: assets.code_icon, 
         title: 'Skills & Tools', 
-        description: 'Articulate 360, Rise 360, HeyGen, Canva, Synthesia, YouTube Management, Scriptwriting & Video Editing.' 
+        description: 'Articulate 360, Rise 360, HeyGen, Canva, Shopify, Synthesia, YouTube Management, Scriptwriting & Video Editing.' 
     },
     { 
         icon: assets.edu_icon, 
@@ -159,5 +161,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.javascript,  assets.canva, assets.synthesia, assets.heygen,  assets.git, 
+    assets.vscode, assets.javascript,  assets.canva, assets.synthesia, assets.heygen,  assets.git, assets.shopify, 
 ];

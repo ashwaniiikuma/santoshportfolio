@@ -201,7 +201,7 @@ const Experience = () => {
   const companyHighlights = [
     {
       role: "Social Media Executive & Content Developer",
-      company: "Smith Origin ",
+      company: "Smith Origin Pvt.Ltd",
       period: "Present",
       description: "Managing brand presence, designing creative social media campaigns, producing high-engagement short form and long form video managing facebook and instgram.",
       type: "Full-Time"
