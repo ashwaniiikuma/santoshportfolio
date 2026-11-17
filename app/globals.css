@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 2. Custom Colors aur Themes define karne ke liye */
+@theme {
+  --color-darkTheme: #11001F;
+  --color-darkHover: #2a004a;
+  --color-lightHover: #fcf4ff;
+}

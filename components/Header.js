@@ -1,3 +1,5 @@
+
+
 "use client";
 import React from 'react';
 import Image from 'next/image';
@@ -14,17 +16,14 @@ const Header = () => {
       {/* LEFT SIDE: CONTENT & BUTTONS */}
       <div className="flex-1 text-center md:text-left flex flex-col items-center md:items-start gap-5">
         
-        {/* SUB-TITLE / BADGE */}
-       
-
         {/* GREETING */}
         <motion.h3 
           initial={{ y: -15, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="flex items-center gap-2 text-lg sm:text-xl font-medium text-slate-700"
+          className="flex items-center gap-2 text-lg sm:text-xl font-medium text-slate-700 dark:text-slate-300"
         >
-          Hi! I'm <span className="font-bold text-slate-900">Santosh Singh Farswan</span>
+          Hi! I&apos;m <span className="font-bold text-slate-900 dark:text-white">Santosh Singh Farswan</span>
           <motion.span
             animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
             transition={{ repeat: Infinity, duration: 2.5, repeatDelay: 1 }}
@@ -39,11 +38,11 @@ const Header = () => {
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.2] text-slate-900"
+          className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.2] text-slate-900 dark:text-white"
         >
           Social Media Executive at{" "}
-          <span className="text-indigo-600">
-            Smith Origin PVT.LTD
+          <span className="text-indigo-600 dark:text-indigo-400">
+            Smith Origins PVT.LTD
           </span>{" "}
         </motion.h1>
 
@@ -52,9 +51,9 @@ const Header = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-xs font-semibold text-slate-500 sm:gap-0.5 uppercase tracking-wider"
+          className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider"
         >
-           Based in Roorkee, Uttarakhand
+          Based in Roorkee, Uttarakhand
         </motion.p>
 
         {/* BIO / DESCRIPTION */}
@@ -62,7 +61,7 @@ const Header = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="max-w-lg text-slate-600 text-sm sm:text-base leading-relaxed font-normal"
+          className="max-w-lg text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed font-normal"
         >
           I specialize in creating engaging social media campaigns, YouTube long-form content, Reels & Shorts, alongside writing scripts and crafting interactive e-learning lessons using Articulate 360, Rise 360, HeyGen, and Canva.
         </motion.p>  
@@ -85,10 +84,10 @@ const Header = () => {
           <a
             href="/santosh-resume.pdf"
             download="santosh-resume.pdf"
-            className="w-full sm:w-auto px-7 py-3 rounded-full border border-slate-300 hover:bg-slate-100 text-slate-700 font-semibold text-sm transition-all duration-300 flex items-center justify-center gap-2 shadow-sm hover:-translate-y-0.5"
+            className="w-full sm:w-auto px-7 py-3 rounded-full border border-slate-300 dark:border-white/20 hover:bg-slate-100 dark:hover:bg-[#2a004a] text-slate-700 dark:text-white font-semibold text-sm transition-all duration-300 flex items-center justify-center gap-2 shadow-sm hover:-translate-y-0.5"
           >
             <span>My resume</span>
-            <Image src={assets.download_icon || assets.arrow_icon} alt="" className="w-4 h-4 opacity-70" />
+            <Image src={assets.download_icon || assets.arrow_icon} alt="" className="w-4 h-4 opacity-70 dark:invert" />
           </a>
         </motion.div> 
       </div>
@@ -107,7 +106,7 @@ const Header = () => {
           <Image 
             src={assets.portfolio_img} 
             alt="Santosh Singh Farswan" 
-            className="relative rounded-full w-full h-full object-cover border-4 border-white shadow-xl hover:scale-[1.02] transition-transform duration-300 ring-1 ring-slate-200"
+            className="relative rounded-full w-full h-full object-cover border-4 border-white dark:border-white/10 shadow-xl hover:scale-[1.02] transition-transform duration-300 ring-1 ring-slate-200 dark:ring-white/20"
           />
         </div>
       </motion.div>
